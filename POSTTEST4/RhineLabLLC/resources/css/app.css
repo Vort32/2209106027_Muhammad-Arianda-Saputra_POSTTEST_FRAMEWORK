@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+/* Pastikan Tailwind bisa scan file blade & js */
+@source './vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source './storage/framework/views/*.php';
+@source './**/*.blade.php';
+@source './**/*.js';
+
+/* =========================
+   Custom Scrollbar Glassmorphism
+   ========================= */
+.custom-scroll::-webkit-scrollbar {
+  width: 4px; /* lebih tipis */
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+  background: transparent; /* biar nyatu sama background blur */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25); /* putih transparan */
+  border-radius: 9999px;
+  backdrop-filter: blur(4px); /* efek glass */
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.45); /* lebih jelas pas hover */
+}
+
+.nav-link:hover {
+  color: #EA7645;
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="gradEng" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d6e9ff" />
+      <stop offset="100%" stop-color="#4b96ff" />
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="26" fill="url(#gradEng)" />
+  <g fill="rgba(255,255,255,0.85)">
+    <circle cx="80" cy="68" r="32" />
+    <rect x="42" y="96" width="76" height="40" rx="18" />
+  </g>
+  <path d="M80 46l14 12-14 12-14-12z" fill="#1f3f63" opacity="0.35" />
+  <text x="80" y="120" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" letter-spacing="6" fill="#123456">ENG</text>
+</svg>
